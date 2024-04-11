@@ -42,6 +42,8 @@ nav ul li a{
     /* para mag dikit dikit yung mga under ng (article-items) */
     justify-content: space-around;
     /* para mag karon ng space between */
+    flex-wrap: wrap;
+    /* nilagay para mag wrap at mag take effect yung ( 2 tile sa 768 view and 600 */
 }
 .item{
     width: 22%;
@@ -69,4 +71,31 @@ footer{
     padding: 20px;
     color: white;
     /* color ng footer itself */
+}
+header{
+    background-color: green;
+}
+@media screen and (max-width:1000px) {
+    section{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .item{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .item{
+        width: 100%;
+    }
 }
