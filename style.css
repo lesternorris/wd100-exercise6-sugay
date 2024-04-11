@@ -1,8 +1,17 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    /* para sa buong page yung font */
+}
 body{
     margin: 0;
+    background-color: #c23d47;
+    /* Background color ng buong page */
 }
 img{
     width: 100%;
+}
+nav{
+    background-color: #f3efda;
 }
 nav ul{
     display: flex; 
@@ -14,12 +23,19 @@ nav ul{
     justify-content: center;
     /* para mag center yung mga li */
     padding: 20px;
+    margin: 0;
 }
 nav ul li a{
     text-decoration: none;
     padding: 10px;
-    border: solid 2px black;
+    border: solid 2px red;
+    /* color ng border */
     margin: 5px;
+    border-radius: 20px;
+    color: blue;
+    /* color ng font */
+    background-color: gold;
+    /* color background */
 }
 .article-items{
     display: flex;
@@ -29,4 +45,28 @@ nav ul li a{
 }
 .item{
     width: 22%;
+    box-sizing: border-box;
+    background-color: white;
+    /* kulay ng BG sa loob ng ( item ) */
+    color: red;
+    /* kulay ng font sa loob ng ( item ) */
+}
+.item div{
+    padding: 10px;
+}
+section{
+    width: 1000px;
+    margin: auto;
+    /* Para gumitna yung nasa loob ng section */
+}
+footer{
+    margin-top: 20px;
+    background-color: green;
+    display: flex;
+    /* para mag hilehilera sila */
+    justify-content: space-between;
+    /* para ma punta sila sa bawat end left and right end */
+    padding: 20px;
+    color: white;
+    /* color ng footer itself */
 }
