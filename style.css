@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+nav ul{
+    display: flex; 
+    /* para mag dikit dikit sila */
+    list-style: none;
+    /* para mawala yung mga bullets */
+    align-items: center;
+    /* para nasa gitna sya */
+    justify-content: center;
+    /* para mag center yung mga li */
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    border: solid 2px black;
+    margin: 5px;
+}
+.article-items{
+    display: flex;
+    /* para mag dikit dikit yung mga under ng (article-items) */
+    justify-content: space-around;
+    /* para mag karon ng space between */
+}
+.item{
+    width: 22%;
+}
